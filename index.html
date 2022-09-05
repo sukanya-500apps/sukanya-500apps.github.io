@@ -8,23 +8,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BotUp</title>
 <script>
-    setTimeout(function(){ 
-      (function(b, o, t, u, p, c){
-    d= o.createElement('div');
-    d.id= 'botup';
-  	c = o.getElementsByTagName('head')[0];
-  	p = o.createElement('script');
-  	p.async = 1;
-    p.id= 'botup-script';
-  	p.src = t + u;
-  	p.onload = function(){
-  		b._Botup.init('4390144778821805', '2751', 'ap1')
-  	};
-    o.lastChild.append(d);
-  	c.appendChild(p);
-  })(window, document, 'https://widgets.500apps.com/botup/', 'botupchat.js');
-  },2000);
-    </script>
+    ((p,u,s,h)=>{
+         p._push={"apiKey":''};
+         p._pushfcm = {
+           location:'dev'
+         };
+          let l,y;
+          l = u.getElementsByTagName('head')[0];
+          y = u.createElement('script');
+          y.async = 1;
+          y.id="pushninja_script"
+          y.src = s+h;
+          l.appendChild(y);})(window,document,'https://infinity-public-js.500apps.com/push/','push.min.js');
+  </script>
 </head>
 
 <body>
